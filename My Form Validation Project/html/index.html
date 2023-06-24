@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Details pages</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/mulengaelichileshe/Documents/My Form Validation Project/css/styles.css">
+    <script src="/Users/mulengaelichileshe/Documents/My Form Validation Project/javascript/FormValidation.js"></script>
+</head>
+    <body>
+    <h1>Details Form</h1>
+        <form id="myForm" onsubmit="validateForm(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span id="nameError" class="error"></span>
+            <br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailError" class="error"></span>
+            <br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <span id="passwordError" class="error"></span>
+            <br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
